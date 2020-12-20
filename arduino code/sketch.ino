@@ -58,7 +58,7 @@ void loop()
             }
         }
         //always delay a little
-        delay(150);
+        delay(100);
     }
 }
 
@@ -85,7 +85,7 @@ void sendCommand(int command[])
     {
         Keyboard.press(command[i]);
     }
-    delay(100);
+    delay(200);
     Keyboard.releaseAll();
 }
 
